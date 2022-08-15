@@ -1,0 +1,37 @@
+
+  <div class="container parent">
+
+    <div class="container Upper">
+      <img src="../assets/snowflakes-gfd2b44382_1920.jpg">
+      <img src="../assets/fire-gfd7eb880e_1920.jpg">
+
+      <div class="weather-data">
+            <div class="location">{{ 'Moscow' | uppercase}}</div>
+            <div class="temparature"> {{ 14.40 | number: '1.0-0'}}°C</div>
+      </div>
+
+    </div>
+
+    <div class="container Bottom responsive">
+      More Information
+      <div class="row More">
+
+        <div class="col-6 mt-4" >
+          <img src="../assets/thermometer-151236_1280.png" class="items-more">
+          <div class="p-2">Min : {{200}} °C</div>
+        </div>
+        <div class="col-6 mt-4">
+          <img src="../assets/dandelion-463928_1920.jpg" class="items-more" id="wind">
+          <div class="p-2">Wind : {{20}} Km/h</div>
+        </div>
+        <div class="col-6">
+          <img src="../assets/hand-1527793.png" class="items-more">
+            <div class="p-2"> Humidity : {{20}} </div>  
+        </div>
+        <div class="col-6">
+          <img src="../assets/hot-159386.png" class="items-more">
+          <div class="p-2"> Max: {{400}} °C</div>
+        </div>
+      </div>
+    </div>
+  </div> 
